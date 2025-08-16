@@ -1,0 +1,22 @@
+# Core data science libraries
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# LightGBM and optimization
+lightgbm>=3.3.0
+optuna>=3.0.0
+
+# Data generation
+faker>=18.0.0
+
+# Jupyter (for notebooks)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: For better performance
+numba>=0.56.0
