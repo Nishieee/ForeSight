@@ -68,13 +68,13 @@ ForeSight-V2/
 ## System Architecture
 ```mermaid
 flowchart LR
-    A[Sigma Layer\nSynthetic Data] --> B[Feature Engineering]
-    B --> C[LightGBM\nRisk Model]
-    B --> D[IsolationForest\nAnomaly Model]
+    A["Sigma Layer<br/>Synthetic Data"] --> B[Feature Engineering]
+    B --> C["LightGBM<br/>Risk Model"]
+    B --> D["IsolationForest<br/>Anomaly Model"]
     C --> E[FSI Calculator]
     D --> E
     E --> F[SHAP Explainer]
-    E --> G[OpenAI Advisory\n(optional)]
+    E --> G["OpenAI Advisory<br/>(optional)"]
     F --> H[Streamlit Dashboard]
     G --> H
 
